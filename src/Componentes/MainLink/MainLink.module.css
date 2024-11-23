@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  .mainLink {
+    font-size: 20px;
+    color: #160000;
+  }
+  
+  .mainLink:hover {
+    color: #EEA302; /* Cor ao passar o mouse */
+  }
+
+  .mainColorClick{
+    color: #EEA302;
+  }
