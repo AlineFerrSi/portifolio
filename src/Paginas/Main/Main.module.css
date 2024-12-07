@@ -6,12 +6,19 @@
 .main{
    background-color:  #F3F3F3;
 }
-.main nav {
+
+.containerMain{
     display: flex;
     flex-direction: row;
     gap: 20px;
-    justify-content: end;
-    padding: 30px 70px;
+    justify-content: space-between;
+    padding: 25px 70px;
+
+}
+
+.containerSecond{
+    display: flex;
+    gap: 20px;
 }
 
 @media (max-width: 744px) {

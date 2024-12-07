@@ -1,6 +1,10 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Main from './Paginas/Main/Index';
+import Main from 'Paginas/Main/Index';
+import Body from 'Paginas/Body/Index';
+import Footer from 'Paginas/Footer/Index';
+import Curriculum from 'Paginas/Curriculum/Index';
+
 
 
 function App() {
@@ -8,10 +12,10 @@ function App() {
     <BrowserRouter>
     <Main />
     <Routes>
-      
-      {/* <Route path='/' element={<Main />} /> */}
+      <Route path='/' element={<Body/>} />
+      <Route path='/curriculo' element={<Curriculum />} />
     </Routes>
-    
+      <Footer />
     </BrowserRouter>
   );
 }

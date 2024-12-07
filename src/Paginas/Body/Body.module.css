@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+.body{
+    background-color:  #F3F3F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 90vh; /* Garante que o body ocupe 100% da altura da janela */
+    margin: 0; /* Remove margens padrão do body */
+    box-sizing: border-box;
+ 
+}
+/* --------------------- TAMANHO DA IMAGEM */
+.imgField img{
+    height: 470px;
+ 
+}
+
+/* --------------------- H1 PART */
+.info h1 {
+ font-size: 100px;
+ padding: 0px 0px 20px 0px;
+   
+}
+
+h1 span:nth-child(1) {
+    color: #EEA302;
+}
+h1 span:nth-child(2) {
+    color: #FF3B25;
+}
+h1 span:nth-child(3) {
+    color: #A4E0E2;
+}
+
+/* --------------------------------- */
+
+.info h2 {
+    font-size: 30px;
+    padding: 0px 0px 10px 0px;
+    color: #222222;  
+}
+
+.info p {
+    font-size: 18px;
+    padding: 0px 0px 10px 0px;
+    color:#8C8C8C;
+      
+}
+/* --------------------- CONTAINER DOS BOTOES */
+.containerButton{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0px 0px 0px;
+    position:absolute;
+    
+}
+
+@media (max-width: 744px) {
+    .body{
+        padding-top: 240px;
+        flex-direction: column;
+        gap: 50px;
+        height: 100vh; /* Garante que o body ocupe 100% da altura da janela */
+        
+        
+    }
+}
+

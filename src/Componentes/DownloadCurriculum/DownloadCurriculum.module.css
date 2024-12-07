@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .button {
+    padding: 15px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.8s ease, transform 0.8s ease;
+    background-color:#EEA302 ;
+  }
+  
+  .button:hover {
+    background-color:#A4E0E2 ;
+    font-weight: 600;
+    padding: 20px 30px;
+    transform: scale(1.1); /* Aumenta o botão ligeiramente */
+  }
+  

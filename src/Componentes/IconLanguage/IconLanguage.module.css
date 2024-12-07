@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+.icons{
+    height: 110px;
+    width: 120px;
+    background-color: #EEA302 ;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Suaviza o efeito */
+}
+
+.icons:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); 
+    background-color: #A4E0E2 ;
+}
+
+.icons h1{
+    color: #F3F3F3;
+}
+
+.icons p{
+    color: #F3F3F3;
+    font-size: 50px;
+}
+
+
+
+
+
+@media (max-width: 700px) {
+
+    .icons{
+
+        height: 250px;
+        width: 250px;
+
+    }
+    
+    .icons p{
+        font-size: 120px;
+    }
+
+
+}
